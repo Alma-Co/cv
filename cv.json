@@ -1,0 +1,179 @@
+{
+  "basics": {
+    "name": "Edith Cantegrit Alsinet",
+    "label": "Fullstack Developer with 5 years of experience",
+    "image": "",
+    "email": "eddith@proton.me",
+    "phone": "671708373",
+    "url": "https://johndoe.com",
+    "summary": "Hey this is me, Edith Cantegrit Alsinet, a programmer from Andorra. I am a programmer, and I am very passionate and dedicated to my work. With 2 years experience as a professional programmer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.",
+    "location": {
+      "address": "",
+      "postalCode": "08016",
+      "city": "Barcelona",
+      "countryCode": "ES",
+      "region": "Catalunya"
+    },
+    "profiles": [
+      {
+      "network": "LinkedIn",
+      "username": "Edit Cantegrit",
+      "url": "https://github.com/Alma-Co"
+    },
+    {
+      "network": "GitHub",
+      "username": "Alma-Co",
+      "url": "https://github.com/Alma-Co"
+    }]
+  },
+  "work": [{
+    "name": "LeadTech",
+    "position": "Frontend Developer",
+    "url": "https://leadtech.com",
+    "startDate": "2022-10-15",
+    "endDate": null,
+    "summary": "I work on a payment orquestator, a platform that allows you to manage all your payments in one place. I am responsible for the success of the company, and I am very passionate and dedicated to my work. I enjoy every step of the design process, from discussion and collaboration.",
+    "highlights": [
+      "blablabla"
+    ]
+    }, 
+    {
+      "name": "LeadTech",
+      "position": "Frontend Developer",
+      "url": "https://leadtech.com",
+      "startDate": "2022-10-15",
+      "endDate": null,
+      "summary": "I work on a payment orquestator, a platform that allows you to manage all your payments in one place. I am responsible for the success of the company, and I am very passionate and dedicated to my work. I enjoy every step of the design process, from discussion and collaboration.",
+      "highlights": [
+        "blablabla"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "University",
+    "url": "https://institution.com/",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [{
+    "name": "HTML",
+    "level": "Master",
+    "keywords": [
+      "Desarollo web",
+      "Frontend",
+      "Accessibility"
+    ]
+  },
+  {
+    "name": "CSS",
+    "level": "Master",
+    "keywords": [
+      "Desarollo web",
+      "Frontend",
+      "Responsive design" 
+    ]
+  },
+  {
+    "name": "Javascript",
+    "level": "Master",
+    "keywords": [
+      "Desarollo web",
+      "Frontend",
+      "Scripts"
+    ]
+  },
+   {
+    "name": "React",
+    "level": "Master",
+    "keywords": [
+      "Redux",
+      "Hooks",
+      "Context"
+    ]
+  },
+  {
+    "name": "Next",
+    "level": "Master",
+    "keywords": [
+      "SSR",
+      "Static Site Generation"
+    ]
+  },
+  {
+    "name": "Svelte",
+    "level": "Intermediate",
+    "keywords": []
+  },
+  {
+    "name": "Tailwind",
+    "level": "Master",
+    "keywords": []
+  },
+  {
+    "name": "Typescript",
+    "level": "Intermediate",
+    "keywords": []
+  }
+],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }]
+}
