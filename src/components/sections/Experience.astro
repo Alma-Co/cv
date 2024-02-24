@@ -1,29 +1,48 @@
 ---
 import Section from '../Section.astro'
 import { work } from "@cv"
+
+
 ---
 
 <Section title="Experience">
     <ul>
     {work.map(
-        ({ name, startDate, endDate, position, summary, highlights}) => {
+        ({ name, startDate, endDate, position, summary, highlights, techs}) => {
             const startYear = new Date(startDate).getFullYear()
             const endYear = endDate !== null ? new Date(endDate).getFullYear() : 'Present'
             const years = `${startYear} - ${endYear}`
+            const printTechs = techs.filter(Boolean).join(' • ');
             return (
                 <li >
                     <article>
                         <header>
                             <div>
-                                <h3>{name}</h3>
+                                <h3>{name}</h3> -
                                 <h4>{position}</h4>
                             </div>
 
                             <time>{years}</time>
                         </header>
-
-                        <footer>
-                            <p>{summary}</p>
+                          <p>{summary}</p>
+                            <ul>
+                                {highlights.map((highlight, index) => (
+                                    <li>{highlight}</li>
+                                ))}
+                            </ul>
+                         <footer class="print">
+                         {printTechs}
+                        </footer>
+                        <footer class="no-print">
+                            <ul>
+                            {
+                                techs.map((name, i) => (
+                                    <li>
+                                        <span>{name}</span>
+                                    </li>
+                                ))
+                            }
+                            </ul>
                         </footer>
                     </article>
                 </li>
@@ -37,14 +56,14 @@ import { work } from "@cv"
     ul {
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 30px;
     }
 
     article h3 {
         font-weight: 500;
         color: #111;
     }
-
+    
     article h4 {
         font-weight: 400;
         color: #222;
@@ -54,11 +73,52 @@ import { work } from "@cv"
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        margin-bottom: 4px;
+        margin-bottom: 8px;
+    }
+
+    header div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 4px;
+    }
+
+    p {
+        margin-bottom: 8px;
     }
 
     time {
-        font-size: 0.9em;
         color: #555;
+        font-size: 0.8rem;
+    }
+
+   article ul {
+        margin-bottom: 12px;
+        display: block;
+    }
+
+    article li {
+        color: #555;
+        margin-left: 1rem;
+        list-style: disc;
+        line-height: 1.5;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    footer li {
+        list-style: none;
+        margin-left: 0px;
+        border-radius: 6px;
+        background: #eee;
+        color: black;
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding: 0.2rem 0.6rem;
     }
 </style>

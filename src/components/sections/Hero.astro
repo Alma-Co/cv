@@ -9,7 +9,7 @@ import GitHub from "@/components/icons/GitHub.astro"
 import WorldMap from "@/components/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types";
 
-const { name, label, image, location, profiles, phone, email } = basics;
+const { name, label, image, location, profiles, phone, email, summary } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -74,11 +74,15 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
                 
                 }
             </footer>
+             
         </div>
         <figure>
             <img src={image} alt={name} />
         </figure>
     </div>
+    <p>
+        {summary}
+    </p>
 </Section>
 
 <style>
@@ -87,7 +91,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .info {
@@ -98,21 +102,19 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
     }
 
     h1 {
-        font-size: 1.8rem;
         margin: 0;
     }
 
     h2 {
+        font-size: 1.3rem;
         color: #444;
-        font-weight: 500;
-        font-size: 1rem;
         text-wrap: balance;
     }
 
     img {
         aspect-ratio: 1 / 1;
         object-fit: cover;
-        width: 128px;
+        width: 160px;
         border-radius: 16px;
     }
 
@@ -121,13 +123,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
         display: flex;
         align-items: center;
         gap: .25rem;
-        font-size: .85rem;
         letter-spacing: -0.05rem;
     }
 
     footer {
         color: #555;
-        font-size: .65rem;
         display: flex;
         gap: 4px;
         margin-top: 8px;
@@ -149,6 +149,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
     footer a:hover {
         background: #eee;
         border: 1px solid #ddd;
+    }
+
+    p {
+        font-size: 0.9rem;
     }
    
 </style>

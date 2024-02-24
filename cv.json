@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Edith Cantegrit Alsinet",
-    "label": "Fullstack Developer with 5 years of experience",
-    "image": "",
+    "label": "Web Developer",
+    "image": "/public/profile.jpg",
     "email": "eddith@proton.me",
-    "phone": "671708373",
+    "phone": "+34671708373",
     "url": "https://johndoe.com",
-    "summary": "Hey this is me, Edith Cantegrit Alsinet, a programmer from Andorra. I am a programmer, and I am very passionate and dedicated to my work. With 2 years experience as a professional programmer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.",
+    "summary": "Quick learning, adaptative and curiosity are the traits that define me best. The dynamic nature of coding and stepping out of my comfort zone is what keeps me engaged.",
     "location": {
       "address": "",
       "postalCode": "08016",
@@ -17,7 +17,7 @@
     "profiles": [
       {
       "network": "LinkedIn",
-      "username": "Edit Cantegrit",
+      "username": "Edith Cantegrit",
       "url": "https://github.com/Alma-Co"
     },
     {
@@ -32,83 +32,94 @@
     "url": "https://leadtech.com",
     "startDate": "2022-10-15",
     "endDate": null,
-    "summary": "I work on a payment orquestator, a platform that allows you to manage all your payments in one place. I am responsible for the success of the company, and I am very passionate and dedicated to my work. I enjoy every step of the design process, from discussion and collaboration.",
-    "highlights": [
-      "blablabla"
-    ]
+    "summary": "Payment orquestrator. Develop a platform that allows financial tasks as real-time transactions monitoring, routing and chargebacks management, all in one place.",
+     "techs": [
+        "React",
+        "Redux",
+        "Next",
+        "Tailwind",
+        "Typescript",
+        "Storybook",
+        "NextJS",
+        "SonarQube",
+        "Jest",
+        "Testing Library",
+        "Vercel",
+        "headless-ui"
+      ],
+      "highlights": [
+        "Complexity of financial dashboards to implement",
+        "Work on static web page on record time for a marketing campaign",
+        "Implement Typescript in the project"
+      ]
     }, 
     {
-      "name": "LeadTech",
+      "name": "Rzilient",
       "position": "Frontend Developer",
       "url": "https://leadtech.com",
-      "startDate": "2022-10-15",
-      "endDate": null,
-      "summary": "I work on a payment orquestator, a platform that allows you to manage all your payments in one place. I am responsible for the success of the company, and I am very passionate and dedicated to my work. I enjoy every step of the design process, from discussion and collaboration.",
+      "startDate": "2022-03-01",
+      "endDate": "2022-10-15",
+      "summary": "GreenIT services; Create and implement dashboards to keep track of secondhand devices and provide environmental services.",
+      "techs": [
+        "React",
+        "Redux",
+        "Testing library",
+        "Storybook",
+        "Styled components",
+        "LightHouse",
+        "Wave",
+        "GreenIt analysis"
+      ],
       "highlights": [
-        "blablabla"
+        "Turn the platform into a micro-services architecture",
+        "Work in personalization for industry theming",
+        "Improve performance and implement accessibility"
+      ]
+    },
+    {
+      "name": "Interficie Consulting",
+      "position": "Fullstack Developer",
+      "url": "https://leadtech.com",
+      "startDate": "2021-01-01",
+      "endDate": "2022-03-01",
+      "summary": "I had the chance to work in different projects and for different clients. From an administrative and accounting ERP for non-profit organization to PortAventura's website.",
+      "techs": [
+        "React",
+        "Sass",
+        "Laravel",
+        "Symfony",
+        "GraphQL",
+        "Gatsby",
+        "Jest",
+        "NextJS",
+        "Typescript"
+      ],
+      "highlights": [
+        "Huge projects and complex architecture",
+        "Frontend and backend development",
+        "Help sporadically in the PortAventura funnel tickets app",
+        "Implementing a new proposal from scratch for PortAventura website",
+        "Reusable templates and documenting all UI components"
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
-    "institution": "University",
+    "institution": "Skylab Coders Academy",
     "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "HTML",
-    "level": "Master",
-    "keywords": [
-      "Desarollo web",
-      "Frontend",
-      "Accessibility"
-    ]
+    "area": "Fullstack Developer",
+    "studyType": "Bootcamp",
+    "startDate": "2020-01-01",
+    "endDate": "2021-01-01"
   },
   {
-    "name": "CSS",
-    "level": "Master",
-    "keywords": [
-      "Desarollo web",
-      "Frontend",
-      "Responsive design" 
-    ]
-  },
+    "institution": "Universidad Autonoma de Barcelona",
+    "url": "https://institution.com/",
+    "area": "International relations",
+    "studyType": "Master",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01"
+  }],
+  "skills": [
   {
     "name": "Javascript",
     "level": "Master",
@@ -118,35 +129,8 @@
       "Scripts"
     ]
   },
-   {
-    "name": "React",
-    "level": "Master",
-    "keywords": [
-      "Redux",
-      "Hooks",
-      "Context"
-    ]
-  },
-  {
-    "name": "Next",
-    "level": "Master",
-    "keywords": [
-      "SSR",
-      "Static Site Generation"
-    ]
-  },
   {
     "name": "Svelte",
-    "level": "Intermediate",
-    "keywords": []
-  },
-  {
-    "name": "Tailwind",
-    "level": "Master",
-    "keywords": []
-  },
-  {
-    "name": "Typescript",
     "level": "Intermediate",
     "keywords": []
   }
@@ -154,26 +138,37 @@
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
+  },
+  {
+    "language": "English",
+    "fluency": "Native speaker"
   }],
   "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
+    "name": "Urbevo",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Tools and apps to analize infrastructure needs in urban areas",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "Won second rank at AWS Spain Hackathon"
     ],
-    "url": "https://project.com/"
+    "url": "https://github.com/hackathon-gipe/pwa-app"
+  }, {
+    "name": "Photography website",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Tools and apps to analize infrastructure needs in a city",
+    "highlights": [
+      "Won second rank at AWS Spain Hackathon"
+    ],
+    "url": "https://github.com/hackathon-gipe/pwa-app"
+  }, {
+    "name": "Photography website",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Tools and apps to analize infrastructure needs in a city",
+    "highlights": [
+      "Won second rank at AWS Spain Hackathon"
+    ],
+    "url": "https://github.com/hackathon-gipe/pwa-app"
   }]
 }
