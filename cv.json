@@ -156,19 +156,10 @@
     "name": "Photography website",
     "startDate": "2023",
     "endDate": "2023",
-    "description": "Tools and apps to analize infrastructure needs in a city",
+    "description": "Just to show off one of my hobbies",
     "highlights": [
-      "Won second rank at AWS Spain Hackathon"
+      "simple Svelte website"
     ],
-    "url": "https://github.com/hackathon-gipe/pwa-app"
-  }, {
-    "name": "Photography website",
-    "startDate": "2023",
-    "endDate": "2023",
-    "description": "Tools and apps to analize infrastructure needs in a city",
-    "highlights": [
-      "Won second rank at AWS Spain Hackathon"
-    ],
-    "url": "https://github.com/hackathon-gipe/pwa-app"
+    "url": "https://edinphotography.netlify.app/"
   }]
 }

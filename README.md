@@ -1,7 +1,6 @@
 # CV
 
-My CV, my life, my education, amen. 
-Warning: often used to start a useless conversation in a party.
+Often used to start a useless conversation in a party.
 
 ## Features
 
