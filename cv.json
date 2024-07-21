@@ -18,7 +18,7 @@
       {
       "network": "LinkedIn",
       "username": "Edith Cantegrit",
-      "url": "https://github.com/Alma-Co"
+      "url": "www.linkedin.com/in/edithcantegrit"
     },
     {
       "network": "GitHub",
@@ -50,7 +50,8 @@
       "highlights": [
         "Complexity of financial dashboards to implement",
         "Work on static web page on record time for a marketing campaign",
-        "Implement Typescript in the project"
+        "Implement Typescript and test in the project",
+        "Create documentation and ADRs"
       ]
     }, 
     {
@@ -153,13 +154,13 @@
     ],
     "url": "https://github.com/hackathon-gipe/pwa-app"
   }, {
-    "name": "Photography website",
+    "name": "CodigoDemente organization",
     "startDate": "2023",
     "endDate": "2023",
-    "description": "Just to show off one of my hobbies",
+    "description": "Website and app side projects",
     "highlights": [
-      "simple Svelte website"
+      "PWA, Svelte"
     ],
-    "url": "https://edinphotography.netlify.app/"
+    "url": "https://github.com/CodigoDemente"
   }]
 }
